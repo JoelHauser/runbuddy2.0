@@ -19,7 +19,7 @@ body {
 
 header {
   padding: 20px 35px;
-  background-image: url('../images/hero-bg.jpg');
+  background-color: #39a6b2;
   background-position: 80%;
   background-attachment:fixed;
   background-size: cover;
@@ -29,6 +29,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   position:sticky;
+  position: --webkit-sticky;
   
   top: 0;
   z-index: 9999;
@@ -119,6 +120,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+
 }
 
 .hero-cta {
